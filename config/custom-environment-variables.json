@@ -1,0 +1,24 @@
+{
+  "app": {
+    "node_env": "NODE_ENV",
+    "app_name": "APP_NAME",
+    "app_port": "APP_PORT",
+    "app_prefix": "APP_PREFIX"
+  },
+  "master": {
+    "type": "mysql",
+    "host": "MYSQL_HOST",
+    "port": "MYSQL_PORT",
+    "username": "MYSQL_USERNAME",
+    "password": "MYSQL_PASSWORD",
+    "database": "MYSQL_DATABASE",
+    "logging": {
+      "__name": "MYSQL_LOG",
+      "__format": "json"
+    },
+    "extra": {
+      "__name": "MYSQL_EXTRA",
+      "__format": "json"
+    }
+  }
+}
